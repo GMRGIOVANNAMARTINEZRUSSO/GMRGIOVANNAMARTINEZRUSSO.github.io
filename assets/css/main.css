@@ -2050,9 +2050,9 @@ input, select, textarea {
 				background: #f5f6f7;
 			}
 
-		.main.dark {
+		/* .main.dark {
 			color: #ffffff;
-		}
+		} */
 
 			.main.dark a {
 				color: inherit;
@@ -2242,19 +2242,20 @@ input, select, textarea {
 		}
 
 /* Intro */
-/* #intro {
-	background: url("https://i.postimg.cc/0jbj82Lg/giovanna-banner.jpg") no-repeat center center;
+#intro {
+	background: rgba(0, 0, 0, 0.5) url("https://i.postimg.cc/0jbj82Lg/giovanna-banner.jpg") no-repeat center center;
 	background-size: cover;
 	background-attachment: fixed;
-} */
+}
 
-	#intro {
+
+	/* #intro {
 		background: url("https://i.postimg.cc/0jbj82Lg/giovanna-banner.jpg"), url("https://i.postimg.cc/0jbj82Lg/giovanna-banner.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
-	}
+	} */
 
 /* One */
 
