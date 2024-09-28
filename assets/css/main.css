@@ -2242,21 +2242,25 @@ input, select, textarea {
 		}
 
 /* Intro */
+#intro {
+	background: url("https://i.postimg.cc/0jbj82Lg/giovanna-banner.jpg") no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
 
-	#intro {
+	/* #intro {
 		background: url("https://i.postimg.cc/0jbj82Lg/giovanna-banner.jpg"), url("https://i.postimg.cc/0jbj82Lg/giovanna-banner.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
-	}
+	} */
 
 /* One */
 
 	#one {
 		background: url("images/overlay.png"), url("../../images/one.jpg");
-		/* background-size: 256px 256px, cover; */
-		background-size: 320px 80px, cover;
+		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
